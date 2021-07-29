@@ -1,0 +1,7 @@
+input.foc{
+    outline:none;
+    transition: width 5s ease-in-out;
+    &:focus {
+            width:15rem;
+    }
+}
