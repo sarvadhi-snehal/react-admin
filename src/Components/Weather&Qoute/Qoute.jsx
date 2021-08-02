@@ -19,11 +19,10 @@ function Qoute() {
     },[qoute])
  
     return (
-        <div className="d-flex bg-info w-100 h-100">
+        <div className="card bg-orange w-100">
          <p>{qoute.quote}</p>
          <p>{qoute.author}</p>
             
-     
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { IoCreateOutline } from "react-icons/io5";
 import { GrDocument } from "react-icons/gr";
 function Summary() {
   return (
-    <div className="row flex-view flex-wrap  w-100 ">
+    <div className="row flex-view flex-wrap  w-100  ">
   
    <Card
         logo={AiOutlineDesktop}

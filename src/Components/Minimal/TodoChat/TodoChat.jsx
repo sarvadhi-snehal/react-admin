@@ -4,7 +4,7 @@ import Messages from './Messages'
 import Chat from './Chat'
 function TodoChat() {
     return (
-        <div className="row vh-70">
+        <div className="row m-2">
             <Todo/>
             <Messages />
             <Chat />

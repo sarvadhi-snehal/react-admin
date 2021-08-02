@@ -2,7 +2,7 @@ import React from "react";
 
 function Messages() {
   return (
-    <div className="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center position-relative">
+    <div className="col-sm-12 col d-flex align-items-center justify-content-center position-relative">
       <h6>Chat</h6>
       <div className="todo-list vh-50 overflow-scroll">
                 <ul className="todos">

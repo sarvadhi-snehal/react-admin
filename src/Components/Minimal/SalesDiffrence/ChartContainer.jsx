@@ -47,7 +47,7 @@ const options = {
 
 const ChartContainer = () => (
 
-    <div className="col-sm-12 col-md-7 col-lg-7 bg-white ">
+    <div className="col-sm-12 col-md-8 col-lg-8 bg-white ">
     <Line data={data} options={options} />
   </div>
 );

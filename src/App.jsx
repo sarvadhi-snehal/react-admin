@@ -1,16 +1,13 @@
 import React, { useState } from 'react'
-import Header from './Components/Header/Header';
-import ContainerHeader from './Components/ContainerHeader/ContainerHeader';
-import Minimal from './pages/Minimal';
+import Header from './Components/Header/Header'
 import './App.scss'
+import "bootstrap";
 function App() {
 
 
   return (
     <div className="App ">
       <Header/>
-      <ContainerHeader />
-      <Minimal />
      
      </div>
   )

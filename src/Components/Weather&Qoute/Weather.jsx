@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-
+import './WeatherQuote.scss'
 function Weather() {
     const [weather,setWeather] =useState()
 
@@ -16,10 +16,16 @@ function Weather() {
         getWeather();
     },[])
     return (
-        <div className="weather bg-success w-100">
-          <p>Surat</p>
-          <p>{weather.icon}</p>
+        <div className=" card bg-info w-100 d-felx align-items-center justify-content-center bg-pinch">
+            <div className="temp">
           <p>{weather.main}</p>
+          <p>Surat</p>
+
+            </div>
+            <div className="icon">
+
+          <p>{weather.icon}</p>
+            </div>
         </div>
     )
 }
