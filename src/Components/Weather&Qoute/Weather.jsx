@@ -16,15 +16,15 @@ function Weather() {
         getWeather();
     },[])
     return (
-        <div className=" card bg-info w-100 d-felx align-items-center justify-content-center bg-pinch">
+        <div className=" card bg-info w-100 flex-view h-50 justify-content-center bg-pinch mb-1">
             <div className="temp">
-          <p>{weather.main}</p>
+          {/* <p>{weather.main}</p> */}
           <p>Surat</p>
 
             </div>
             <div className="icon">
 
-          <p>{weather.icon}</p>
+          {/* <p>{weather.icon}</p> */}
             </div>
         </div>
     )
