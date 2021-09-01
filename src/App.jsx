@@ -1,17 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import "bootstrap";
-import './App.scss';
+import { makeStyles, useTheme } from "@material-ui/core/styles";
 
+import "./App.scss";
 
+import Layout from "./components/Layout";
 
 function App() {
-
-
-  return (
-    <div className="App ">
-    hello
-     </div>
-  )
+  return <Layout></Layout>;
 }
 
-export default App
+export default App;
