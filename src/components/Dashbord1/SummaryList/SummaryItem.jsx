@@ -32,8 +32,8 @@ const SummaryItem = ({ title, Icon, number }) => {
   const theme = useTheme();
 
   return (
-    <Grid item xs={12} sm={11} md={6} lg={3}>
-      <Card className={classes.root}>
+    <Grid item xs={12} sm={12} md={6} lg={3}>
+      <Card className={classes.root} variant="outlined">
   
           <CardContent className={classes.content}>
             <div>
